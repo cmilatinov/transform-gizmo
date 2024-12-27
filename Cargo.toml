@@ -4,7 +4,7 @@ members = ["crates/*", "examples/*"]
 
 [workspace.package]
 version = "0.4.0"
-rust-version = "1.78.0"
+rust-version = "1.83.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 homepage = "https://github.com/urholaukkarinen/transform-gizmo"
@@ -16,14 +16,14 @@ transform-gizmo = { version = "0.4.0", path = "crates/transform-gizmo" }
 transform-gizmo-egui = { version = "0.4.0", path = "crates/transform-gizmo-egui" }
 transform-gizmo-bevy = { version = "0.4.0", path = "crates/transform-gizmo-bevy" }
 
-egui = "0.29"
-eframe = "0.29"
-emath = "0.29"
-epaint = "0.29"
-ecolor = "0.29"
-glam = { version = "0.29.1", features = ["mint"] }
+egui = "0.30.0"
+eframe = "0.30.0"
+emath = "0.30.0"
+epaint = "0.30.0"
+ecolor = "0.30.0"
+glam = { version = "0.29.2", features = ["mint"] }
 mint = "0.5"
-enum_dispatch = "0.3.12"
+enum_dispatch = "0.3.13"
 ahash = "0.8.7"
 enumset = "1.1.3"
 bytemuck = "1.5"
